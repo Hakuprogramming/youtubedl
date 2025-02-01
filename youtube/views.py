@@ -13,8 +13,9 @@ def youtube(request):
         
         # yt-dlp で動画をダウンロード
         ydl_opts = {
+            'cookiesfrombrowser': 'chrome',
             'outtmpl': os.path.join(settings.MEDIA_ROOT, 'videos', '%(id)s.%(ext)s'), # 動画IDをファイル名に使用
-            'noplaylist': True,  # プレイリストを無視するオプション
+            'noplaylist': True,
         }
 
         try:
