@@ -28,7 +28,7 @@ py manage.py runserver
 #### Mac\Linux
 
 ```bash
-python3 -m venv
+python3 -m venv venv
 source ./.venv/bin/active
 pip install -r requirements.txt
 python3 manage.py migrate
