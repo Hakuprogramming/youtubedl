@@ -19,7 +19,7 @@ cd youtubedl
 
 ```bash
 py -m venv venv
-.\venv\Scripts\activate
+\venv\Scripts\activate
 pip install -r requirements.txt
 py manage.py migrate
 py manage.py runserver
@@ -29,7 +29,7 @@ py manage.py runserver
 
 ```bash
 python3 -m venv venv
-source ./.venv/bin/active
+source venv/bin/activate
 pip install -r requirements.txt
 python3 manage.py migrate
 python3 manage.py runserver
