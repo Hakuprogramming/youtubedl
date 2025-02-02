@@ -6,4 +6,4 @@ django-environ
 gunicorn
 psycopg2-binary
 whitenoise
-yt_dlp
+yt-dlp
